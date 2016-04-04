@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing:border-box;
+  font-family: Arial;
+}
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+#homePageTemplate, #detailPageTemplate, #addPic {
+	width: 1200px;
+	min-height: 600px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+h1 {
+	text-align: center;
+	height: 80px;
+}
+h1 img {
+	width: 60px;
+	height: auto:
+	border-radius: 60px;
+}
+nav {
+	margin: 0 auto;
+	width: 300px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+nav a {
+	text-decoration: none;
+	width: 140px;
+	height: 25px;
+	background: #e7e7e7;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #b3b3b3;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	
+	margin-top: 40px;
+	height: 400px;
+	width: 1200px;
+}
+.gallery img {
+	border: 1px solid black;
+	width: auto;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	position: relative;
+}
+.detail {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.detail img {
+	width: 500px;
+	height: auto;
+}
+.imageFull {
+	width: 400px;
+	height: auto;
+}
+.detailText {
+	width: 350px;
+	height: 600px;
+	padding: 5px;
+}
+.detail h1 {
+	text-align: left;
+	font-size: Arial;
+	font-size: 22px;
+	color: #2b2b2b;
+}
+.detailText p {
+	font-family: Arial;
+	font-size: 14px;
+	height: 200px;
+	color: #3c3c3c;
+	background: #F9F9F9; 
+	padding:10px;
+	border: 1px solid #b3b3b3;
+}
+form {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+input {
+	width: 500px; 
+	height: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+form a button {
+	width: 120px;
+	height: 40px;
+	background: #f9f9f9;
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial;
+	padding: 10px;
+	border: 1px solid #b3b3b3;
+	margin-top: 20px;
+}
+form a {
+	text-decoration: none;
+}
+.centerImage {
+	margin: 0 auto;
+	width: 600px;
+	height: auto;
+	margin-top: 25px;
+}
+.centerImage img {
+	width: 500px;
+	height: auto;
+}
+.hidden, #id1 {
+	display: none;
+}
+.fa {
+	position: relative;
+	top: 163px;
+	left: -76px;
+	z-index: 1000;	
+}
+.detailPageTemplate h1 {
+	height: 40px
+}
+.fa:hover {
+	color: orange;
+}
+.box {
+	width: 24px;
+	height: 22px;
+	position: relative;
+	top: 168px;
+	left: -48px;
+	
+	font-size: 10px;
+	padding: 2px;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 25px;
+
+}
+.show {
+	/*position: relative;*/
+	z-index: 1000;
+}

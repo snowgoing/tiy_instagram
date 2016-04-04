@@ -1,0 +1,14 @@
+<div id="detailPageTemplate">
+	<h1><img src="./templates/logo.png"/></h1>
+	<nav>
+		<a href="">Home</a>
+		<a href="/edit/{{attributes.objectId}}">Edit Photo</a>
+	</nav>
+	<div class="detail">
+		<div class="imageFull"><img src="{{attributes.image}}"/></div>
+		<div class="detailText">
+			<h1>{{attributes.title}}</h1>
+			<p>{{attributes.description}}</p>
+		</div>
+	</div>
+</div>

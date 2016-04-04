@@ -1,0 +1,18 @@
+<div id="editPageTemplate">
+	<h1><img src="./templates/logo.png"/></h1>
+	<nav>
+		<a href="">Home</a>
+		<a href="/addNew">Add Photo</a>
+	</nav>
+	
+	<div class="centerImage"><img src="{{attributes.image}}" /></div>
+	
+	<form>
+		<input id="objectId" value="{{attributes.objectId}}" class="hidden"></input>
+		<input id="image" value="{{attributes.image}}"/>
+		<input id="title" value="{{attributes.title}}"/>
+		<textarea id="description" rows="10" cols="50">{{attributes.description}}
+		</textarea>
+		<a href=""><button type="submit" id="editPic">Submit</button></a>
+	</form>
+</div>

@@ -1,0 +1,16 @@
+<div id="homePageTemplate">
+	<h1><img src="./templates/logo.png"/></h1>
+	<nav>
+		<a href="">Home</a>
+		<a href="/addNew">Add Photo</a>
+	</nav>
+	
+	<div class="gallery">
+		{{#picsData}}
+		<a href="/pic/{{objectId}}"><img src="{{image}}"/></a>
+		<span class="box show">{{fav}}</span><i class="fa fa-heart-o fa-2x" id="fav"></i>
+		<input id="id1" value="{{objectId}}"/>
+		{{/picsData}}
+	</div>
+	
+</div>
